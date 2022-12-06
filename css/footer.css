@@ -1,0 +1,9 @@
+footer {
+	top: 0;
+    left: 0;
+    right: 0;
+	text-align: center;
+    background: url(../img/footer.webp);
+	padding: 40px;
+	max-width: 100%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FuteKings</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/stylecontato.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+  <aside class="menu">
+    <div class="menu-conteudo">
+      <h1>
+        <a href="#home"><img class="logosite" src="img/logosite.png"></a>
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Noticias</a></li>
+          <div class="dropdown">
+          <li><a href="">Jogadores</a></li>
+          <div class="dropdown-content">
+            <a href="cristiano.html">Cristiano Ronaldo</a>
+            <a href="messi.html">Lionel Messi</a><br>
+            <a href="neymar.html">Neymar Júnior</a>
+          </div>
+          </div>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <br><br><br><br>
+  <section class="container">
+    <h1>Fale conosco</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1877.9291614605154!2d-47.95887082405058!3d-19.718655096664314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad18160f7b4d3%3A0x5d0c29cbc9d3e469!2sIFTM%20-%20Uberaba%20(Parque%20Tecnol%C3%B3gico)!5e0!3m2!1spt-BR!2sbr!4v1670282860611!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <ul>
+      <li>Preencha todos os campos</li>
+    </ul>
+    
+    <form action="/" method="POST" class='formulario'>
+      <label>Nome</label>
+      <input type="text">
+      <label>Email</label>
+      <input type="email">
+      <label>Telefone</label>
+      <input type="number">
+      <label>Deixe sua mensagem</label>
+      <textarea name="textarea" rows="10" cols="79">Compartilhe informações conosco.</textarea>
+      
+           <p class="prefcontato">Como prefere nosso contato?</p><br>
+
+           <div class="radiobox-custom">
+           <input type="radio" id="whatsapp" name="contatar" value="whatsapp"><label for="whatsapp">WhatsApp</label>
+          </div>
+
+          <div class="radiobox-custom">
+           <input type="radio" id="telefone" name="contatar" value="telefone"><label for="telefone">Telefone</label>
+          </div>
+
+          <div class="radiobox-custom">
+           <input type="radio" id="email" name="contatar" value="email"><label for="email">Email</label>
+          </div>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p class="copyright">Copyright FuteKings - 2022</p>
+  </footer>
+</body>
+
+</html>

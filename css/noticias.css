@@ -1,0 +1,73 @@
+body {
+    font-family: 'Kalam', cursive;
+    background-color: var(--white-color);
+  }
+
+.noticias-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.623);
+    background-color: var(--graycolor);
+    padding: 30px;
+    margin: 20px;
+    width: 800px;
+    height: 500px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+  .card h2 {
+    text-align: center;
+  }
+
+  
+  .card p {
+    padding-top: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 23px;
+  }
+  
+  .image {
+    float: left;
+    max-width: 500px;
+    max-height: 300px;
+  }
+
+  .imagec {
+    opacity: 0.7;
+    float: left;
+    max-width: 500px;
+    max-height: 400px;
+  }
+
+  .imager {
+    float: left;
+    max-width: 520px;
+    max-height: 400px;
+  }
+
+  .imagev {
+    float: left;
+    max-width: 500px;
+    max-height: 400px;
+  }
+
+
+
+  .green {
+  border-left: 3px solid rgb(13, 87, 46);
+  border-right: 3px solid rgb(13, 87, 46);
+  border-top: 3px solid rgb(13, 87, 46);
+  border-bottom: 3px solid rgb(13, 87, 46);
+}
+
